@@ -10,6 +10,16 @@ public class Main {
 
         /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
 
+        int liczba = 1234;
+        double liczba2 = 12.34;
+        String teskt = "Lorem ipsum dolor";
+        boolean bool = true;
+        System.out.println("zad1");
+        System.out.println("zmienna int = " + liczba);
+        System.out.println("zmienna double = " + liczba2);
+        System.out.println("zmienna String = " + teskt);
+        System.out.println("zmienna boolean = " + bool);
+
         /*
         *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
         *    mnożenia, dziealenia i modulo na zmiennych:
@@ -17,6 +27,22 @@ public class Main {
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
 
+        int liczbaA = 39;
+        int liczbaB = 11;
+        double liczbaX = 3.14;
+        double liczbaZ = 1.5;
 
+        System.out.println("zad2\na)");
+        System.out.println(liczbaA + liczbaB);
+        System.out.println(liczbaA - liczbaB);
+        System.out.println(liczbaA * liczbaB);
+        System.out.println(liczbaA / liczbaB);
+        System.out.println(liczbaA % liczbaB);
+        System.out.printf("\nb)\n");
+        System.out.println(liczbaX + liczbaZ);
+        System.out.println(liczbaX - liczbaZ);
+        System.out.println(liczbaX * liczbaZ);
+        System.out.println(liczbaX / liczbaZ);
+        System.out.println(liczbaX % liczbaZ);
     }
 }

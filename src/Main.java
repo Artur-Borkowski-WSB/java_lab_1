@@ -12,11 +12,27 @@ public class Main {
         *   b) wyświetlić dane za pomocą println i printf
         */
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Podaj imię ");
+        String imie = scan.next();
+        System.out.println("Podaj nazwisko ");
+        String nazwisko = scan.next();
+        System.out.println("Podaj numer indeksu ");
+        String nrIndeksu = scan.next();
+
+        System.out.printf("Student: " + imie + " " + nazwisko + "\t" + nrIndeksu);
+        System.out.println();
 
         /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
         *   wynik wyświetlić w konsoli programu
         */
 
+        int x = 5, y = 10;
+        System.out.println(x + y);
+        System.out.println(x - y);
+        System.out.println(x * y);
+        System.out.println(x / y);
+        System.out.println(x % y);
 
     }
 }
